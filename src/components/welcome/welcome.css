@@ -1,0 +1,46 @@
+
+
+.welcome {
+    display: flex;
+    /* justify-content: space-between; */
+    padding-top: 147px;
+    background: #3FC66E20;
+
+    .welcome-img {
+    }
+    .welcome-text {
+        h1 {
+            font-size: 80px;
+            font-weight: bold;
+            font-family: 'Tinos', sans-serif;
+            margin-top: 60px;
+            margin-bottom: 60px;
+            line-height: 88px;
+            span {
+                color: #FF8A00;
+            }
+        }
+        .p-come {
+            font-size: 20px;
+            width: 433px;
+            margin-bottom: 122px;
+            color: #5C4529;
+            font-family: "Poppins",sans-serif;
+            line-height: 40px;
+        }
+        .welcome-buttons {
+            display: flex;
+            gap: 23px;
+            button {
+                padding: 17px 0;
+                width: 232px;
+                font-size: 20px;
+                height: 74px;
+                font-family: 'Poppins', sans-serif;
+            }
+            button:first-child {
+                background-color: #FF8A00;
+            }
+        }
+    }
+}
